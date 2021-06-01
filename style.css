@@ -98,10 +98,13 @@ li a.current{
     margin-left:400px;
     box-shadow: 0 4px 16px rgba(46, 46, 46, 0.3);
     width:500px;
-    height:500px;
+    height:220px;
     margin-top:50px;
     border-radius:40px;
     transition:1s;
+}
+.docs:hover{
+    background-color:#e4e4e4
 }
 h3{
     left:25%;
@@ -110,6 +113,7 @@ h3{
     text-align:center;
     margin:20px;
     transition:1s;
+    padding-top: 10px;
 }
 .moreinfo{
     left:31%;
@@ -124,4 +128,31 @@ h5{
     font-size:large;
     margin:20px;
     transition:1s;
+}
+.moreinformation{
+    background-color:#343c91;
+    border-radius:28px;
+    border:1px solid #9f9eff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #080024;
+    transition:all 0.3s;
+    width:83px;
+    height:25px;
+    text-align:center;
+    margin-left:170px;
+}
+.moreinformation:hover {
+	background-color:#4751c4;
+    width:83px;
+    height:25px;
+    transition:all 0.3s;
+}
+.moreinformation:active {
+	position:relative;
+	top:1px;
 }
