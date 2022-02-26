@@ -1,10 +1,66 @@
-.main{
-    font-family:  'Noto Sans KR', sans-serif;
-    text-align:center;
-    margin-top:350px;
-    border-radius:20px;
-    box-shadow: 0 4px 16px rgba(46, 46, 46, 0.3);
-    padding-top:20px;
-    padding-bottom:20px;
-    width:400px;
+.box1{
+    width: 300vw;
+}
+
+.inner{
+    width: 100vw;
+    float: left;
+}
+
+.inner img{
+    width: 100%;
+}
+
+.container{
+    transition: transform 0.5s;
+}
+
+.bt1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0px;
+    color: white;
+    margin-left:10%;
+    border-style:none;
+}
+
+.buttons{
+    background-color: black;
+    padding-bottom:40px;
+}
+
+.bt2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0px;
+    color: white;
+    margin-left: 12px;
+    border-style:none;
+}
+
+.bt3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0px;
+    color: white;
+    margin-left: 12px;
+    border-style:none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+li a{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    margin: 10px;
+}
+.title{
+    font-size:20px;
+    color: black;
 }
